@@ -23,22 +23,22 @@ printf("APPLICATION FOR MEDICAL CHECK UP \n");
    int height;
     printf("enter your height (in centimetres)\n");
     scanf("%d",&height);
-    printf("your height is \n",height);
+    printf("your height is %d \n",height);
     
    int balance;
     printf("enter your bank balance(in numbers) \n");
     scanf("%d",&balance);
-    printf("your bank balance \n",balance);
+    printf("your bank balance %d \n",balance);
     
    int number;
     printf("enter your phone number(in numbers)\n");
     scanf("%d",&number);
-    printf("your phone number is \n",number);
+    printf("your phone number is %d \n",number);
     
    int name;
     printf("enter your name(in letters) \n");
     scanf("%s",&name);
-    printf("your name is \n",name);
+    printf("your name is %s \n",name);
    
    return 0;
 }    
